@@ -24,11 +24,26 @@ const InstitutionRegistration = () => {
     }
   });
 
-  const onSubmit = (data: any) => {
-    console.log(data);
-    // Aqui você implementaria a lógica para enviar os dados para um servidor
-  };
+  const onSubmit = async (data: unknown) => {
+  try {
+    const response = await fetch('http://localhost:5000/api/donors', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify(data)
+    });
 
+    if (!response.ok) throw new Error('Erro ao cadastrar doador');
+
+    const result = await response.json();
+    console.log('Doador cadastrado com sucesso:', result);
+    alert('Cadastro realizado com sucesso!');
+  } catch (error) {
+    console.error('Erro ao enviar dados:', error);
+    alert('Erro ao cadastrar. Tente novamente.');
+  }
+};
   return (
     <div className="min-h-screen flex flex-col">
       <Navbar />
