@@ -32,6 +32,7 @@ Facilitar a doação de sangue por meio da tecnologia, promovendo agilidade, seg
 - Node.js
 - Git
 - (opcional) Docker
+- Mongodb
 
 ### Clonando o repositório:
 ```bash
@@ -49,7 +50,7 @@ npm install
 npm run dev
 ```
 
-### Backend (se separado):
+### Backend:
 ```bash
 cd backend
 npm install
@@ -57,7 +58,7 @@ npm start
 ```
 
 ### Acessar em:
-[http://localhost:3000](http://localhost:3000)
+[http://localhost:3000]
 
 ## 🧪 Funcionalidades Implementadas
 ✔️ Cadastro de doador  
@@ -75,23 +76,35 @@ npm start
 
 ## 📦 Estrutura do Projeto
 ```
-.
-├── pages/              # Páginas do Next.js
-├── components/         # Componentes reutilizáveis
-├── public/             # Imagens e ícones
-├── styles/             # Estilos globais
-├── backend/            # (se aplicável)
-└── README.md
+LIFESYNC/
+├── backend/                                # Backend da aplicação
+├── node_modules/                           # Dependências do projeto
+├── public/                                 # Arquivos estáticos públicos
+├── src/                                    # Código-fonte da aplicação
+├── .gitignore                              # Arquivos e pastas ignorados pelo Git
+├── bun.lockb                               # Arquivo de lock do Bun (gerenciador de pacotes)
+├── components.json                         # Configuração de componentes (provavelmente usada por algum UI framework)
+├── Documento 3 (1).pdf                     # Documento de apoio
+├── eslint.config.js                        # Configuração do ESLint
+├── index.html                              # Página HTML principal
+├── package-lock.json                       # Lockfile do npm
+├── package.json                            # Configurações e dependências do projeto
+├── postcss.config.js                       # Configuração do PostCSS
+├── Preparação de ambiente.pdf              # Documento de preparação de ambiente
+├── PROVA DE CONCEITO LIFESYNC V2.pdf       # Documento de prova de conceito
+├── README.md                               # Documentação do projeto
+├── tailwind.config.ts                      # Configuração do Tailwind CSS
+├── tsconfig.app.json                       # Configuração TypeScript para o app
+├── tsconfig.json                           # Configuração principal do TypeScript
+├── tsconfig.node.json                      # Configuração TypeScript para o Node
+├── vite.config.ts                          # Configuração do Vite (build tool)
 ```
 
 ## 🌐 Link do Protótipo Online
 🔗 https://lifesync-seven.vercel.app/
 
-## 🖼️ Prints ou GIF do funcionamento (opcional)
-(Adicionar imagens ou GIFs demonstrando o uso do sistema)
-
-## 🎥 Vídeo de Apresentação
-🎬 
+## 🎥 Vídeo de Apresentação no Youtube
+🎬 https://youtu.be/4JCIaFNPjsg
 
 ## 📃 Licença 
 Este projeto foi desenvolvido como parte do Projeto Integrador do curso de Análise e Desenvolvimento de Sistemas – 4º semestre.
