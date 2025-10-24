@@ -57,7 +57,7 @@ export default function Navbar() {
           variant="outline"
           className="hidden md:block border-2 border-black rounded-full px-8 hover:bg-primary-crimson hover:text-white hover:border-primary-crimson transition-colors"
         >
-          <Link to="/entrar">Entrar</Link>
+          <Link to="/login">Entrar</Link>
         </Button>
         
         {/* Mobile Menu Button */}
@@ -92,7 +92,7 @@ export default function Navbar() {
               variant="outline"
               className="border-2 border-black rounded-full hover:bg-primary-crimson hover:text-white hover:border-primary-crimson transition-colors"
             >
-              <Link to="/entrar">Entrar</Link>
+              <Link to="/login">Entrar</Link>
             </Button>
           </div>
         </div>
