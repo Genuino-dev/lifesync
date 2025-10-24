@@ -52,8 +52,12 @@ export default function Navbar() {
 
       {/* Login Button */}
       <div>
-        <Button variant="outline" className="hidden md:block border-2 border-black rounded-full px-8 hover:bg-primary-crimson hover:text-white hover:border-primary-crimson transition-colors">
-          Entrar
+        <Button
+          asChild
+          variant="outline"
+          className="hidden md:block border-2 border-black rounded-full px-8 hover:bg-primary-crimson hover:text-white hover:border-primary-crimson transition-colors"
+        >
+          <Link to="/entrar">Entrar</Link>
         </Button>
         
         {/* Mobile Menu Button */}
@@ -83,8 +87,12 @@ export default function Navbar() {
             <Link to="/cadastro" className="text-black font-medium">
               Criar Conta
             </Link>
-            <Button variant="outline" className="border-2 border-black rounded-full hover:bg-primary-crimson hover:text-white hover:border-primary-crimson transition-colors">
-              Entrar
+            <Button
+              asChild
+              variant="outline"
+              className="border-2 border-black rounded-full hover:bg-primary-crimson hover:text-white hover:border-primary-crimson transition-colors"
+            >
+              <Link to="/entrar">Entrar</Link>
             </Button>
           </div>
         </div>
