@@ -10,6 +10,8 @@ import CollectionPoints from "./pages/CollectionPoints";
 import NotFound from "./pages/NotFound";
 import DonorRegistration from "./pages/DonorRegistration";
 import InstitutionRegistration from "./pages/InstitutionRegistration";
+import Entrar from "./pages/Entrar";
+import Login from "./pages/Login";
 
 const queryClient = new QueryClient();
 
@@ -25,6 +27,8 @@ const App = () => (
           <Route path="/pontos" element={<CollectionPoints />} />
           <Route path="/cadastro-doador" element={<DonorRegistration />} />
           <Route path="/cadastro-centro" element={<InstitutionRegistration />} />
+          <Route path="/login" element={<Login />} />
+          <Route path="/entrar" element={<Entrar />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>

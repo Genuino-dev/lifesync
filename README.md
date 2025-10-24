@@ -34,6 +34,12 @@ Facilitar a doação de sangue por meio da tecnologia, promovendo agilidade, seg
 - (opcional) Docker
 - Mongodb
 
+### Verificando a instalação do Git (Windows)
+- Abra o **PowerShell** ou o **Prompt de Comando** e execute `git --version`.
+- Se aparecer `CommandNotFoundException` ou mensagem dizendo que o comando não existe, instale o Git pelo [site oficial](https://git-scm.com/download/win) ou com `winget install Git.Git`.
+- Após a instalação, feche e abra novamente o terminal para que o comando `git` seja reconhecido.
+- Caso prefira, utilize o **Git Bash**, instalado junto com o Git, para executar os comandos `git fetch` e `git checkout` sugeridos na revisão da PR.
+
 ### Clonando o repositório:
 ```bash
 git clone https://github.com/Genuino-dev/lifesync.git
