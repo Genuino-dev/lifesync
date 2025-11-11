@@ -79,10 +79,12 @@ npm start
 ✔️ Indicador de impacto em tempo real  
 ✔️ Interface moderna, responsiva e acessível  
 
-🎨 Design e Documentação 
-🎨 Design no Figma: https://www.figma.com/design/UK15rkJOMlXdcr57Pg90fR/LifeSync 
-📄 Prova de Conceito LifeSync: incluída no repositório 
-🧰 Preparação do ambiente: incluído no projeto 
+
+🎨 Design e Documentação
+🎨 Design no Figma: https://www.figma.com/design/UK15rkJOMlXdcr57Pg90fR/LifeSync
+📄 Prova de Conceito LifeSync: incluída no repositório
+🧰 Preparação do ambiente: incluído no projeto
+
 
 
 ## 📦 Estrutura do Projeto 
@@ -115,7 +117,7 @@ LIFESYNC/
 🔗 https://lifesync-seven.vercel.app/
 
 ## 🎥 Vídeo de Apresentação
-🎬[ https://youtu.be/3tl2VnvWn1s](https://drive.google.com/file/d/1iXgcQ-pkHA9SqlgSkKTjanVZqRj1R6xG/view?usp=drive_link)
+🎬https://drive.google.com/file/d/1iXgcQ-pkHA9SqlgSkKTjanVZqRj1R6xG/view?usp=drive_link
 
 ## 🩸 Evolução do Projeto
 🧠 **4º semestre:** foco em funcionalidades básicas de cadastro, gestão e agendamento.  
